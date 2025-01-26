@@ -1,3 +1,74 @@
-body{
-    background-color: bisque;
+.container {
+    background: linear-gradient(45deg,
+        rgba(255, 0, 255, 0.856),
+        blue);
+       padding: 4px;
+        min-height: auto;
+
 }
+
+.eduziPageHead {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: white;
+    box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.5);
+}
+.eduziCompanyName{
+    font-size: 30px;
+    font-weight: 900;
+    color: darkblue;
+    text-align: center;
+}
+
+button {
+    padding: 30px;
+    border-radius: 10%;
+}
+
+.discovery{
+  font-size: large;  
+  font-weight: bold;
+  background: rgba(6, 6, 34, 0.856);
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.801);
+  padding: 15px;
+}
+
+.quality {
+   font-size: large; 
+   color: rgb(2, 2, 10);
+   margin-bottom: 6px;
+   padding: 10px;
+}
+
+.buttonTwo {
+    font-size: larger;
+    background-color: rgba(47, 47, 82, 0.856);
+    color: white;
+    border-radius: 15%;
+    
+}
+
+.buttonTwo  :hover{
+    background: -moz-radial-gradient(rgba(58, 58, 235, 0.13));
+}
+
+.products{
+    max-width: 1000px;
+    max-height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 4px;
+}
+img{
+    
+max-width: 300px;
+    max-height: 200px;
+}
+
